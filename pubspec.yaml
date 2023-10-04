@@ -79,6 +79,9 @@ flutter:
   - assets/icons/013-care-2.png
   - assets/icons/028-bandage.png
   - assets/icons/005-syringe.png
+  - assets/icons/Icons-Back 1.png
+  - assets/icons/Icons-Artboard 31 1.png
+  - assets/icons/Icons-Comment.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

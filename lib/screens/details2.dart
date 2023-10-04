@@ -2,14 +2,14 @@ import 'package:doctor_app/screens/home.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Detailscreen extends StatefulWidget {
-  const Detailscreen({Key? key}) : super(key: key);
+class Detail2screen extends StatefulWidget {
+  const Detail2screen({Key? key}) : super(key: key);
 
   @override
-  _DetailscreenState createState() => _DetailscreenState();
+  _Detail2screenState createState() => _Detail2screenState();
 }
 
-class _DetailscreenState extends State<Detailscreen> {
+class _Detail2screenState extends State<Detail2screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +27,7 @@ class _DetailscreenState extends State<Detailscreen> {
                         height: 375,
                         decoration: const BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage('assets/images/Group 22.png'),
+                                image: AssetImage('assets/images/Group 25.png'),
                                 fit: BoxFit.fill)),
                       ),
                       Positioned(
@@ -72,7 +72,7 @@ class _DetailscreenState extends State<Detailscreen> {
                     child: Align(
                       alignment: Alignment.centerLeft,
                       child: Text(
-                        'Dr. Gilang Segara Bening',
+                        'Dr. Suprihatini',
                         style: GoogleFonts.lato(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
@@ -109,7 +109,7 @@ class _DetailscreenState extends State<Detailscreen> {
                           width: 8,
                         ),
                         Text(
-                          'Persahabatan Hospital',
+                          'Salemba Carolus Hospital',
                           style: GoogleFonts.lato(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
@@ -211,7 +211,7 @@ class _DetailscreenState extends State<Detailscreen> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  '1221',
+                                  '762',
                                   style: GoogleFonts.lato(
                                       fontSize: 24,
                                       fontWeight: FontWeight.w400,

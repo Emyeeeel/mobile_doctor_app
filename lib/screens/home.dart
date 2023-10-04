@@ -427,7 +427,7 @@ class _HomeScreenState extends State<Homescreen> {
                           rating: 5.0,
                         );
                       } else if (index == 1) {
-                        return const VerticalList(
+                        return const VerticalList1(
                           image: 'assets/images/Group 23.png',
                           name: 'Dr. Shabil Chan',
                           specialization: 'Dental',
@@ -436,7 +436,7 @@ class _HomeScreenState extends State<Homescreen> {
                           rating: 5.0,
                         );
                       } else if (index == 2) {
-                        return const VerticalList1(
+                        return const VerticalList2(
                           image: 'assets/images/Group 24.png',
                           name: 'Dr. Mustakim',
                           specialization: 'Eye',
@@ -445,7 +445,7 @@ class _HomeScreenState extends State<Homescreen> {
                           rating: 5.0,
                         );
                       } else if (index == 3) {
-                        return const VerticalList(
+                        return const VerticalList3(
                           image: 'assets/images/Group 25.png',
                           name: 'Dr. Suprihatini',
                           specialization: 'Heart',
